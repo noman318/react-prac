@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, { useState } from "react";
 
 const OtherQuestions = () => {
@@ -5,7 +6,7 @@ const OtherQuestions = () => {
   const [result, setResult] = useState("");
   const numArr = [78, 89, 23, 90, 200];
   const sortedData = numArr.sort((num1, num2) => num1 - num2);
-  console.log("sorting", sortedData);
+  // console.log("sorting", sortedData);
 
   const handleValueChange = (e) => {
     setNumber(e.target.value);
