@@ -8,6 +8,23 @@ const OtherQuestions = () => {
   const sortedData = numArr.sort((num1, num2) => num1 - num2);
   // console.log("sorting", sortedData);
 
+  function makeCounter() {
+    let count = 0;
+    return function () {
+      count++;
+      return count;
+    };
+  }
+
+  const newCount = makeCounter();
+  newCount();
+  newCount();
+  newCount();
+  newCount();
+  newCount();
+  newCount();
+  console.log("newCount()", newCount());
+
   const handleValueChange = (e) => {
     setNumber(e.target.value);
     setResult("");

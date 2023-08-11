@@ -22,7 +22,7 @@ const Form = () => {
     // console.log("tags", tags);
     tagRef.current.value = "";
   };
-  console.log("state", state);
+  // console.log("state", state);
   return (
     <div>
       <h3>Product Form</h3>
