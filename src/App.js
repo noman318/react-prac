@@ -3,13 +3,15 @@ import "./App.css";
 import Form from "./components/Form";
 import OtherQuestions from "./components/OtherQuestions";
 import Reducers from "./components/Reducers";
+import JsPrac from "./components/JsPrac";
 
 function App() {
   return (
     <div className="App">
-      <Reducers />
+      {/* <Reducers />
       <OtherQuestions />
-      <Form />
+      <Form /> */}
+      <JsPrac />
     </div>
   );
 }
