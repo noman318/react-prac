@@ -5,6 +5,7 @@ import OtherQuestions from "./components/OtherQuestions";
 import Reducers from "./components/Reducers";
 import JsPrac from "./components/JsPrac";
 import Table from "./components/Table";
+import PerformanceLog from "./components/test/test";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Form /> */}
       {/* <JsPrac /> */}
       <Table />
+      <PerformanceLog />
     </div>
   );
 }
