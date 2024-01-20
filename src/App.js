@@ -6,6 +6,7 @@ import Reducers from "./components/Reducers";
 import JsPrac from "./components/JsPrac";
 import Table from "./components/Table";
 import ModalIssue from "./components/ModalIssue";
+import PerformanceLog from "./components/test/test";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       {/* <JsPrac /> */}
       <Table />
       {/* <ModalIssue /> */}
+      <PerformanceLog />
     </div>
   );
 }
