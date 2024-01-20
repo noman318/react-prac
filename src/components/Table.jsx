@@ -87,9 +87,9 @@ const Table = () => {
               <td>{item.name}</td>
             </tr>
           ))} */}
-          <td>{tableData.id}</td>
-          <td>{tableData.username}</td>
-          <td>{tableData.name}</td>
+          <td>{tableData?.id}</td>
+          <td>{tableData?.username}</td>
+          <td>{tableData?.name}</td>
         </tbody>
       </table>
     </div>

@@ -5,6 +5,7 @@ import OtherQuestions from "./components/OtherQuestions";
 import Reducers from "./components/Reducers";
 import JsPrac from "./components/JsPrac";
 import Table from "./components/Table";
+import ModalIssue from "./components/ModalIssue";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Form /> */}
       {/* <JsPrac /> */}
       <Table />
+      {/* <ModalIssue /> */}
     </div>
   );
 }
