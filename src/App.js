@@ -16,8 +16,8 @@ function App() {
       <Form /> */}
       {/* <JsPrac /> */}
       <Table />
-      {/* <ModalIssue /> */}
-      <PerformanceLog />
+      <ModalIssue />
+      {/* <PerformanceLog /> */}
     </div>
   );
 }

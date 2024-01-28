@@ -14,6 +14,7 @@ const ModalIssue = () => {
       <Button variant={"contained"} onClick={handleOpenConfirm}>
         Open Confirm Dialog
       </Button>
+      {console.log("isConfirmOpen", isConfirmOpen)}
 
       {isConfirmOpen && (
         <CustomModal
